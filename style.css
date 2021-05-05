@@ -1,0 +1,62 @@
+/* Universal Styles */
+* {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: normal;
+    text-align: center;
+}
+
+body {
+    padding-top: 120px;
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 2px solid red;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+}
+
+/* Style the GIF */
+.hypnotize {
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+figcaption {
+    font-size: 12px;
+}
+
+/* Contact Form */
+.contact-form {
+    margin-top: 80px;
+}
+button {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    background-color: red;
+    padding: 1em 2em;
+    color: white;
+}
+
+/* Footer Styles */
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    border-top: 2px solid red;
+    color: black;
+}
